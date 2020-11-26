@@ -38,7 +38,7 @@ Fig 6.12 ARIMA Training for Google ‘Close’ Stock Prices
 
  Fig 6.12 ARIMA Predicted Closing Prices
 
-•	A graph with both test prices and predicted prices shown in Figure 6.13 showed that the ARIMA model did perform very well. This could be due to gaps in time in the data. Properly structured data of continuous days or months is usually more suited for accurate ARIMA modelling. Hence, a shift was made to Deep Learning on the same data set.
+•	A graph with both test prices and predicted prices shown in Figure 6.13 showed that the ARIMA model did NOT perform very well. This could be due to gaps in time in the data. Properly structured data of continuous days or months is usually more suited for accurate ARIMA modelling. Hence, a shift was made to Deep Learning on the same data set.
 
  
 Fig 6.12 Poorly Predicted Closing Prices by ARIMA
