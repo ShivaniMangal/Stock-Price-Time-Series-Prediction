@@ -1,15 +1,17 @@
-#Google Stock Price Time Series Analysis and Prediction
+# Google Stock Price Time Series Analysis and Prediction
 
-Models trained in this repository:
-* ARIMA 
-* LSTM
+## Models trained in this repository:
+### * ARIMA 
+### * LSTM
 
-Results :
-6.2	PERFORMANCE ANALYSIS FOR GOOGLE STOCK PRICE DATASET
+## Results :
+### PERFORMANCE ANALYSIS FOR GOOGLE STOCK PRICE DATASET
 In this section, the error measures of ARIMA and LSTM are analyzed to evaluate performance for prediction of Google closing stock price.
 
 6.2.1	STEPS TO IMPLETMENT ARIMA AND PERFORMANCE EVALUATION
-•	The first step is to check if the data is stationary.  Data is said to be stationary if it’s mean, covariance and standard deviation is constant over a period of time. Figure 6.9 is a time series plot of all features in the stock price data. Skewed and uneven trends in the graph prove that this data is not stationary
+•	The first step is to check if the data is stationary.  Data is said to be stationary if it’s mean, covariance and standard deviation is constant over a period of time. 
+
+Figure 6.9 is a time series plot of all features in the stock price data. Skewed and uneven trends in the graph prove that this data is not stationary
  
 Fig 6.8 Non-Stationary Google Stock Prices 
 
