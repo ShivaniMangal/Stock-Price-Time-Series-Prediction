@@ -33,16 +33,8 @@ Fig 6.10 Stationary Google Stock Price Data
 Fig 6.11 Autocorrelation of Stationary Google ‘Close’ Stock Price Data
 
 •	Before testing an ARIMA model for different p, d, q values, the frequency (Either daily, monthly, quarterly, yearly) must be set. Here, ARIMA was run for yearly interval
-•	As seen in Figure 6.12, the lowest AIC of 135.418 was obtained for ARIMA(1, 1, 0)
- 
-![Image](ReadMe_Results_Images/ARIMATraining.png) 
-Fig 6.12 ARIMA Training for Google ‘Close’ Stock Prices
-
-•	Prediction for the test set of 50 values was implemented by fitting the obtained ARIMA model with a step size of 50. The array of predicted values generated is depicted in Fig 6.13.
-
-![Image](ReadMe_Results_Images/Prediction.png)
- Fig 6.12 ARIMA Predicted Closing Prices
-
+•	The lowest AIC of 135.418 was obtained for ARIMA(1, 1, 0)
+•	Prediction for the test set of 50 values was implemented by fitting the obtained ARIMA model with a step size of 50.
 •	A graph with both test prices and predicted prices shown in Figure 6.13 showed that the ARIMA model did NOT perform very well. This could be due to gaps in time in the data. Properly structured data of continuous days or months is usually more suited for accurate ARIMA modelling. Hence, a shift was made to Deep Learning on the same data set.
 
 ![Image](ReadMe_Results_Images/ARIMAPoorPerformance.png)
