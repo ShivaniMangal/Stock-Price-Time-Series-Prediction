@@ -55,4 +55,4 @@ The architecture of the RNN designed includes fours LSTM layers and one output l
 ![Image](ReadMe_Results_Images/LSTMPerformance.png) 
 Fig 6.13 LSTM Predictions in Red plotted against Actual Test Closing Prices in Blue for June, July, August 2018
 
-Hence LSTM performed extremely well for this dataset, predicting the right drops and rises in the closing Google stock prices.
+## Hence LSTM performed extremely well for this dataset, predicting the right drops and rises in the closing Google stock prices.
