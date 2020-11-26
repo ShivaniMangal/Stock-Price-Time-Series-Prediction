@@ -27,7 +27,8 @@ Fig 6.10 Stationary Google Stock Price Data
 
 •	Next step is to check for autocorrelation. Autocorrelation is a measure of similarity between observations as a function of the time lag between them. In other words, it is the correlation of a value with its immediate previous value. This can be found by plotting an ACF graph as shown in Figrure 6.11. The steep curve above the X axis indicates positive correlation. The lump below the X axis indicates negative correlation. An ideal ACF must have most of its values above the X axis. 
 
- 
+![Image] main/ReadMe_Results_Images/ACF.png 
+
 Fig 6.11 Autocorrelation of Stationary Google ‘Close’ Stock Price Data
 
 •	Before testing an ARIMA model for different p, d, q values, the frequency (Either daily, monthly, quarterly, yearly) must be set. Here, ARIMA was run for yearly interval
