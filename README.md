@@ -9,10 +9,10 @@
 ### PERFORMANCE ANALYSIS FOR GOOGLE STOCK PRICE DATASET
 In this section, the error measures of ARIMA and LSTM are analyzed to evaluate performance for prediction of Google closing stock price.
 
-6.2.1	STEPS TO IMPLETMENT ARIMA AND PERFORMANCE EVALUATION
+## 6.2.1	STEPS TO IMPLETMENT ARIMA AND PERFORMANCE EVALUATION
 •	The first step is to check if the data is stationary.  Data is said to be stationary if it’s mean, covariance and standard deviation is constant over a period of time. 
 
-Figure 6.9 is a time series plot of all features in the stock price data. Skewed and uneven trends in the graph prove that this data is not stationary
+Figure 1 is a time series plot of all features in the stock price data. Skewed and uneven trends in the graph prove that this data is not stationary
  
 Fig 6.8 Non-Stationary Google Stock Prices 
 
@@ -45,16 +45,16 @@ Fig 6.12 ARIMA Training for Google ‘Close’ Stock Prices
 Fig 6.12 Poorly Predicted Closing Prices by ARIMA
 
 
-6.2.2	LSTM PERFORMANCE
+## 6.2.2	LSTM PERFORMANCE
 
 The architecture of the RNN designed includes fours LSTM layers and one output layer. The following factors must be understood before proceeding to the results of the LSTM model.
-•	First, a Sequential model is initialized. Sequential() is a class in Kera library that allows one to create a deep learning model by adding successive layers through the ‘add()’ function.
-•	Four LSTM layers were added with 50 hidden units each. 
-•	Dropout Regularization is the method of ignoring and dropping random units during training. This is essential to prevent overfitting. Here, a dropout regularization of 20% was implemented for each layer.
-•	The output layer had one unit, the output unit, that is, the predicted ‘Close’ price of the Google Stock.
-•	Adam Optimizer is an extension of the tradition stochastic gradient descent which has proved too give more accurate results. Mean Squared Error was applied as the loss function.
-•	A batch size of 32 with 100 epochs was used for training. The 100th epoch returned a loss of 6.2778e-04
-•	The predicted closing prices in red versus test closing prices in blue are plotted in Figure 6.13
+### •	First, a Sequential model is initialized. Sequential() is a class in Kera library that allows one to create a deep learning model by adding successive layers through the ‘add()’ function.
+### •	Four LSTM layers were added with 50 hidden units each. 
+### •	Dropout Regularization is the method of ignoring and dropping random units during training. This is essential to prevent overfitting. Here, a dropout regularization of 20% was implemented for each layer.
+### •	The output layer had one unit, the output unit, that is, the predicted ‘Close’ price of the Google Stock.
+### •	Adam Optimizer is an extension of the tradition stochastic gradient descent which has proved too give more accurate results. Mean Squared Error was applied as the loss function.
+### •	A batch size of 32 with 100 epochs was used for training. The 100th epoch returned a loss of 6.2778e-04
+### •	The predicted closing prices in red versus test closing prices in blue are plotted in Figure 6.13
 
  
 Fig 6.13 LSTM Predictions in Red plotted against Actual Test Closing Prices in Blue for June, July, August 2018
