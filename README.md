@@ -1,4 +1,5 @@
 # Google Stock Price Time Series Analysis and Prediction
+(Undergraduate Academic Project Timeline : Nov 2018 - April 2019)
 
 ## Models trained in this repository:
 ### * ARIMA 
